@@ -13,6 +13,7 @@ const Recipe = () => {
   let { infoRecipes } = useContext(infoContext);
   let { titulo, subtitulo, texto, imagenes, ingredientes, elaboracion, titulo2, titulo3 } = infoRecipes[id];
 
+  
   return (
     <>
       <Header />
