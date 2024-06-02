@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 function Menu() {
     return(
-        <nav className="sticky-top navbar navbar-expand-sm bg-dark navbar-dark">
+        <nav className="sticky-top navbar navbar-expand-sm bg-dark navbar-dark mb-2">
             <div className="container-fluid">
                 <ul className="navbar-nav">
                 <li className="nav-item">
-                    <Link className="nav-link active" to="/">INICIO</Link>
+                    <Link className="nav-link" to="/">INICIO</Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="/Recipes">RECETAS</Link>

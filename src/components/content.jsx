@@ -29,7 +29,7 @@ function Content() {
                 )) 
             }
             {
-                dataVisible < recipesData.length && <button onClick={loadRecipes}>Cargar mas</button>
+                dataVisible < recipesData.length && <button onClick={loadRecipes} className="btn btn-primary">Cargar mas</button>
             }
         </div>
     ); 

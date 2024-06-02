@@ -4,13 +4,13 @@ import { createContext, useState } from "react";
 let infoContext = createContext();
 
 let RecipesProvider = ({children}) => {
-  let [infoRecipes, setInfoRecipes] = useState("Hola mundo");
+  let [infoRecipes, setInfoRecipes] = useState("");
 
   return (
     <infoContext.Provider 
     value={{
         infoRecipes,
-        setInfoRecipes
+        setInfoRecipes,
         }}>
       {children}
     </infoContext.Provider>
